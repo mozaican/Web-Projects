@@ -1,15 +1,26 @@
-nav {
-	float: right;
+body 
+{
+	background-color: #EFEEEE;
+	position: relative;
+}
+
+#first 
+{
+	position: absolute;
+	left: 600px;
 }
 
 li {
 	display: inline;
-	margin-right: 10px;
+	margin: 0 10px 0 15px;
 }
 
-main {
+main 
+{
 	max-width: 600px;
-	margin: 0 auto;
+	position: relative;
+	top: 200px;
+	left: 500px; 	
 }
 
 aside {
