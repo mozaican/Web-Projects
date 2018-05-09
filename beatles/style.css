@@ -1,13 +1,18 @@
 body 
 {
 	background-color: #EFEEEE;
-	position: relative;
 }
 
 #first 
 {
-	position: absolute;
-	left: 600px;
+	position: fixed;
+	left: 0;
+	top: 0;
+	right: 0;
+	height: 200px;
+	width: 100%;
+	z-index: 9999;
+	background-color: whitesmoke;
 }
 
 li {
