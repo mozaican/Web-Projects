@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto+Slab');
+
 body 
 {
 	background-color: #EFEEEE;
@@ -5,7 +7,7 @@ body
 
 #first 
 {
-	position: fixed;
+	position: absolute;
 	left: 450px;
 	top: 0;
 	right: 0;
@@ -26,7 +28,19 @@ body
 
 li {
 	display: inline;
-	margin: 0 10px 0 15px;
+	margin: 0 10px 0 10px;
+	font-family: 'Roboto Slab', serif;
+}
+
+a 
+{
+	text-decoration: none;
+	color: #000000;
+}
+
+a:hover 
+{
+	color: #FF0000;
 }
 
 main 
@@ -35,6 +49,11 @@ main
 	position: relative;
 	top: 200px;
 	left: 500px; 	
+}
+
+header h1 
+{
+	font-family: 'Roboto Slab', serif;
 }
 
 aside {
