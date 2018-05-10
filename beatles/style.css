@@ -45,6 +45,7 @@ a:hover
 main 
 {
 	max-width: 700px;
+	min-height: 900px;
 	position: relative;
 	top: 200px;
 	left: 500px; 	
@@ -83,4 +84,19 @@ aside {
 	border-top: 3px solid #D3D3D3;
 	border-bottom: 3px solid #D3D3D3;
 	font-size: 14px;
+}
+
+footer 
+{
+	position: relative;
+	height: 150px;
+}
+
+footer p
+{
+	border: 1px solid #D3D3D3;
+	font-family: 'Roboto Slab', serif;
+	font-size: 18px;
+	padding: 5px 10px 5px 10px;
+	width: 100px;
 }
