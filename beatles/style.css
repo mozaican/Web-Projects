@@ -50,13 +50,37 @@ main
 	left: 500px; 	
 }
 
-header h1 
+h1 
 {
 	font-family: 'Roboto Slab', serif;
 }
 
+p 
+{
+	font-family: 'Open Sans', sans-serif;
+}
+
+p#author 
+{
+	font-size: 12px;
+}
+
+p.lede 
+{
+	font-size: 18px;
+}
+
+figcaption 
+{
+	font-family: 'Roboto Slab', serif;
+	font-size: 12px;
+}
+
 aside {
 	float: left;
-	margin: 0 1.5%;
+	margin-right: 50px;
 	width: 300px;
+	border-top: 3px solid #D3D3D3;
+	border-bottom: 3px solid #D3D3D3;
+	font-size: 14px;
 }
