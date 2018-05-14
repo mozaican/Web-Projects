@@ -27,3 +27,24 @@ th, td
     border-bottom: 1px solid #cbd2d8;
     border-right: 1px solid #cbd2d8;
 }
+
+tr.head th 
+{
+    color: #ffffff;
+    background-color: #90b4d6;
+    border-bottom: 2px solid #FFC0CB;
+    border-right: 1px solid #749abe;
+    border-top: 1px solid #90b4d6;
+    text-shadow: -1px -1px 1px #666;
+    letter-spacing: 0.15em;
+}
+
+td 
+{
+    text-shadow: 1px 1px 1px #ffffff;
+}
+
+tr.even td, tr.even th 
+{
+    background-color: #e8eff5;
+}
