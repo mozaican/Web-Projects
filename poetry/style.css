@@ -10,3 +10,20 @@ h1
 {
     font-family: 'Titan One', cursive;
 }
+
+table 
+{
+    border-spacing: 0px;
+}
+
+th, td 
+{
+    padding: 5px 30px 5px 10px;
+    border-spacing: 0px;
+    margin: 0px;
+    font-size: 90%;
+    background-color: #e0e9f0;
+    border-top: 1px solid #f1f8fe;
+    border-bottom: 1px solid #cbd2d8;
+    border-right: 1px solid #cbd2d8;
+}
