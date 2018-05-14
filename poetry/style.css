@@ -48,3 +48,46 @@ tr.even td, tr.even th
 {
     background-color: #e8eff5;
 }
+
+fieldset 
+{
+    width: 300px;
+    margin-top: 20px;
+    border: 2px solid #FFC0CB;
+    line-height: 1.5em;
+}
+
+legend 
+{
+    font-style: italic;
+    color: #666;
+}
+
+input[type="text"]
+{
+    width: 150px;
+    border: 1px solid #d6d6d6;
+    padding: 2px;
+    outline: none;
+}
+
+input[type="text"]:focus, input[type="text"]:hover
+{
+    background-color: #d0e2f0;
+    border: 1px solid #999;
+}
+
+input[type="submit"] 
+{
+    border: 1px solid #FFC0CB;
+    background-color: #749abe;
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 10px 0 0 130px;
+}
+
+input[type="submit"]:hover 
+{
+    cursor: pointer;
+}
