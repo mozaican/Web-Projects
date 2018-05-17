@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Kavivanar');
+
 header, section, footer, aside, nav, article, figure, figcaption 
 {
     display: block;
@@ -23,10 +25,21 @@ header
     background-color: #FFE4B5;
 }
 
+h1, h2, h3 
+{
+    font-family: 'Kavivanar', cursive;
+}
+
 h1 
 {
     width: 940px;
     margin: 0px;
+    padding: 10px 0px 0px 50px;
+}
+
+header h3 
+{
+    padding: 10px 0px 0px 50px;
 }
 
 nav, footer 
