@@ -3,7 +3,7 @@
 body 
 {
     font-family: 'Roboto Mono', monospace;
-    background-color: #f8f8f8;
+    background-image: url("img/Milky-Way.jpg");
 }
 
 #wrapper 
@@ -17,21 +17,32 @@ body
     margin-left: 50px;
 }
 
+img 
+{
+    border: 1px solid #ECCFCF;
+}
+
 h1 
 {
     font-family: 'Titan One', cursive;
-    color: #123049;
+    color: #ECCFCF;
 }
 
 #workshops 
 {
     display: grid;
     grid-template-rows: 1fr 1fr;
+    grid-gap: 10px;
 }
 
 #intro 
 {
     margin-top: 90px;
+    margin-right: 50px;
+    padding: 10px;
+    color: #ECCFCF;
+    border: 1px solid #749abe;
+    background-color: #0C243A;
 }
 
 table 
@@ -73,23 +84,24 @@ tr.even td, tr.even th
     background-color: #e8eff5;
 }
 
-form 
-{
-    margin: 0 auto;
-}
-
 fieldset 
 {
     width: 300px;
-    margin-top: 20px;
+    margin: 0 auto;
     border: 2px solid #FFC0CB;
     line-height: 1.5em;
+    background-color: #0C243A;
 }
 
 legend 
 {
     font-style: italic;
-    color: #666;
+    color: #ECCFCF;
+}
+
+label, span
+{
+    color: #ECCFCF;
 }
 
 input[type="text"]
