@@ -62,13 +62,25 @@ span
 
 main 
 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     grid-column: 2 / 12;
-    grid-row: 2 / 6;
+}
+
+#intro 
+{
+    margin-top: 150px;
 }
 
 #intro p 
 {
     color: #000;
+    font-size: 18px;
+}
+
+#intro .date 
+{
+    font-size: 14px;
 }
 
 a 
