@@ -66,8 +66,14 @@ main
     grid-row: 2 / 6;
 }
 
-p 
+#intro p 
 {
+    color: #000;
+}
+
+a 
+{
+    text-decoration: none;
     color: #000;
 }
 
@@ -98,6 +104,23 @@ footer
 {
     grid-column: 1 / 13;
     text-align: center;
+    background: #000;
+}
+
+footer a 
+{
+    color: #fff;
+}
+
+ul 
+{
+    margin-top: 40px;
+    list-style-type: none;
+}
+
+li 
+{
+    display: inline;
 }
 
 
